@@ -1,7 +1,7 @@
 import pdfplumber
 
 # Abra o arquivo PDF
-pdf = pdfplumber.open("ED_1_SEPLAG_CE_24_ABERTURA (2).pdf")
+pdf = pdfplumber.open("UsoInteligenciaArtificial.pdf")
 
 # Selecione a primeira página (ou a página desejada)
 pagina_pdf = pdf.pages[0]
